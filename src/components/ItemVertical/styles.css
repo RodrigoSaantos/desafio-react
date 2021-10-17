@@ -1,0 +1,79 @@
+
+#container-table {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1rem;
+}
+
+#table {
+  border-collapse: separate;
+  border-spacing: 0px;
+  width: 100%;
+  padding: 0;
+  border: 1px solid black;
+  border-radius: 10px;
+  border: 1px solid #dddddd;
+  
+}
+
+#table th, td {
+border-collapse: separate;
+  border-spacing: 0px;
+  /* border: 1px solid #dddddd; */
+}
+
+#table th {
+background: #f0f0f0;
+}
+
+/* #table th + th {
+border-radius: 10px;
+} */
+
+#table tr td {
+border-top: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  text-align-last: center;
+  height: 40px;
+  /* font-weight: bold; */
+  line-height: 18px;
+  font-size: 14px;
+}
+
+#table tr td:last-child {
+border-top: 1px solid #dddddd;
+  border-right: 0px solid #dddddd;
+}
+#table tr th {
+  border-right: 1px solid #dddddd;
+  height: 40px;
+  font-weight: bold;
+  line-height: 18px;
+  font-size: 14px;
+}
+#table tr th:first-child {
+  border-radius: 8px 0px 0px;
+}
+
+#table tr th:last-child {
+  border-right: 0px solid #dddddd;
+border-radius: 0px 8px 0px 0px;
+}
+
+input[type='checkbox']::before {
+  content: ' ';
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid black;
+}
+
+input[type='checkbox']:checked::after {
+  content: ' ';
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  background-color: #C4C4C4;
+  border: 1px solid black;
+}

@@ -1,0 +1,23 @@
+main {
+  width: 100%;
+}
+.table {
+  width: 100%;
+  margin-top: 2rem;
+  border: 0.5px solid #DDDDDD;
+  border-radius: 10px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  background: #F0F0F0;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  border-radius: 10px 10px 0px 0px;
+}
+
